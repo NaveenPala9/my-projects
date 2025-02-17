@@ -1,0 +1,71 @@
+/* Base styles */
+.app-background {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+  }
+  
+  .top-right-elements {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .app-container {
+      padding: 15px;
+    }
+  
+    .form-container {
+      max-width: 70%;
+    }
+  
+    .top-right-elements {
+      right: 15px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    .app-container {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .form-container {
+      width: 100%;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  
+    .app-logo img {
+      width: 100px;
+    }
+  
+    .top-right-elements {
+      right: 5px;
+      font-size: 14px;
+    }
+  
+    .form-item {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .popup, .help-popup {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  

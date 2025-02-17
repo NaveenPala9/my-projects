@@ -1,0 +1,12 @@
+.custom-dot-list {
+  position: absolute;
+  bottom: 10px; /* Adjust this based on carousel height */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  margin-bottom: 30px; /* Adds spacing to avoid overlap */
+}
